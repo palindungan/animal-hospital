@@ -1,0 +1,3 @@
+npx (npm package runner) :
+
+npx create-react-app <project_name>
