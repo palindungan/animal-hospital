@@ -18,7 +18,7 @@ function App() {
       </Greet> */}
       <Greet name="Palindungan" heroName="Wonder Woman" />
 
-      {/* <Welcome name="Rizkika" heroName="Batman" /> */}
+      <Welcome name="Rizkika" heroName="Batman" />
       {/* <Welcome name="Zakka" heroName="Superman" /> */}
       {/* <Welcome name="Palindungan" heroName="Wonder Woman" /> */}
 
