@@ -12,21 +12,21 @@ function App() {
     <div className="App">
       {/* <Greet name="Rizkika" heroName="Batman">
         <p>This is children props</p>
-      </Greet>
-      <Greet name="Zakka" heroName="Superman">
+      </Greet> */}
+      {/* <Greet name="Zakka" heroName="Superman">
         <button>Action</button>
-      </Greet>
+      </Greet> */}
       <Greet name="Palindungan" heroName="Wonder Woman" />
 
-      <Welcome name="Rizkika" heroName="Batman" />
-      <Welcome name="Zakka" heroName="Superman" />
-      <Welcome name="Palindungan" heroName="Wonder Woman" /> */}
+      {/* <Welcome name="Rizkika" heroName="Batman" /> */}
+      {/* <Welcome name="Zakka" heroName="Superman" /> */}
+      {/* <Welcome name="Palindungan" heroName="Wonder Woman" /> */}
 
       {/* <Hello /> */}
 
       {/* <Message></Message> */}
 
-      <Counter></Counter>
+      {/* <Counter></Counter> */}
     </div>
   );
 }
