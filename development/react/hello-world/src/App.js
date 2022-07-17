@@ -8,9 +8,19 @@ import Hello from "./components/Hello";
 function App() {
   return (
     <div className="App">
-      {/* <Greet /> */}
-      {/* <Welcome /> */}
-      <Hello />
+      <Greet name="Rizkika" heroName="Batman">
+        <p>This is children props</p>
+      </Greet>
+      <Greet name="Zakka" heroName="Superman">
+        <button>Action</button>
+      </Greet>
+      <Greet name="Palindungan" heroName="Wonder Woman" />
+
+      <Welcome name="Rizkika" heroName="Batman" />
+      <Welcome name="Zakka" heroName="Superman" />
+      <Welcome name="Palindungan" heroName="Wonder Woman" />
+
+      {/* <Hello /> */}
     </div>
   );
 }

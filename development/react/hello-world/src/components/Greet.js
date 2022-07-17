@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 // function component without using es6
 // function Greet() {
@@ -7,7 +7,19 @@ import React from 'react';
 
 //// ---------------
 
-const Greet = () => <h1>Hello Rizkika 2</h1>; // function component using es6
+// function component using es6
+const Greet = (props) => {
+  //   console.log(props);
+
+  return (
+    <div>
+      <h1>
+        Hello {props.name} a.k.a {props.heroName}
+      </h1>
+      {props.children}
+    </div>
+  );
+};
 
 export default Greet;
 
