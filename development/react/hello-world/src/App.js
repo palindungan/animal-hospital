@@ -18,6 +18,8 @@ import "./AppStyles.css";
 import styles from "./AppStyles.module.css";
 import Form from "./components/Form";
 import LiveCycleA from "./components/LiveCycleA";
+import FragmentDemo from "./components/FragmentDemo";
+import Table from "./components/Table";
 
 function App() {
   return (
@@ -59,7 +61,10 @@ function App() {
 
       {/* <Form></Form> */}
 
-      <LiveCycleA></LiveCycleA>
+      {/* <LiveCycleA></LiveCycleA> */}
+
+      {/* <FragmentDemo></FragmentDemo> */}
+      <Table></Table>
     </div>
   );
 }
