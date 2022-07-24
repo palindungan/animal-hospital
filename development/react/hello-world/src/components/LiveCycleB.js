@@ -8,21 +8,21 @@ class LiveCycleB extends Component {
       username: "",
     };
 
-    console.log("1. LiveCycleB constructor");
+    console.log("mounting 1. LiveCycleB constructor");
   }
 
   static getDerivedStateFromProps(props, state) {
-    console.log("2. LiveCycleB static getDerivedStateFromProps");
+    console.log("mounting 2. LiveCycleB static getDerivedStateFromProps");
 
     return null;
   }
 
   componentDidMount() {
-    console.log("4. LiveCycleB componentDidMount");
+    console.log("mounting 4. LiveCycleB componentDidMount");
   }
 
   render() {
-    console.log("3. LiveCycleB Render");
+    console.log("mounting 3. LiveCycleB Render");
 
     return (
       <div>
