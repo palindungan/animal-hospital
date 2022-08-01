@@ -25,10 +25,12 @@ import ParentComp from "./components/ParentComp";
 import RefsDemo from "./components/RefsDemo";
 import FocusInput from "./components/FocusInput";
 import FRParentInput from "./components/FRParentInput";
+import PortalDemo from "./components2/PortalDemo";
 
 function App() {
   return (
     <div className="App">
+      {/* tutorial 1-30 */}
       {/* <Greet name="Rizkika" heroName="Batman">
         <p>This is children props</p>
       </Greet> */}
@@ -76,7 +78,10 @@ function App() {
 
       {/* <RefsDemo></RefsDemo> */}
       {/* <FocusInput></FocusInput> */}
-      <FRParentInput></FRParentInput>
+      {/* <FRParentInput></FRParentInput> */}
+
+      {/* tutorial 31-60 */}
+      <PortalDemo></PortalDemo>
     </div>
   );
 }
