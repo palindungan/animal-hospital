@@ -26,6 +26,8 @@ import RefsDemo from "./components/RefsDemo";
 import FocusInput from "./components/FocusInput";
 import FRParentInput from "./components/FRParentInput";
 import PortalDemo from "./components2/PortalDemo";
+import Hero from "./components2/Hero";
+import ErrorBoundary from "./components2/ErrorBoundary";
 
 function App() {
   return (
@@ -81,7 +83,13 @@ function App() {
       {/* <FRParentInput></FRParentInput> */}
 
       {/* tutorial 31-60 */}
-      <PortalDemo></PortalDemo>
+      {/* <PortalDemo></PortalDemo> */}
+
+      <ErrorBoundary>
+        <Hero heroName="Batman"></Hero>
+        <Hero heroName="Superman"></Hero>
+        <Hero heroName="Joker"></Hero>
+      </ErrorBoundary>
     </div>
   );
 }
