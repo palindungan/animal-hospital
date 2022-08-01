@@ -28,6 +28,8 @@ import FRParentInput from "./components/FRParentInput";
 import PortalDemo from "./components2/PortalDemo";
 import Hero from "./components2/Hero";
 import ErrorBoundary from "./components2/ErrorBoundary";
+import ClickCounter from "./components2/ClickCounter";
+import HoverCounter from "./components2/HoverCounter";
 
 function App() {
   return (
@@ -85,7 +87,7 @@ function App() {
       {/* tutorial 31-60 */}
       {/* <PortalDemo></PortalDemo> */}
 
-      <ErrorBoundary>
+      {/* <ErrorBoundary>
         <Hero heroName="Batman"></Hero>
       </ErrorBoundary>
       <ErrorBoundary>
@@ -93,7 +95,10 @@ function App() {
       </ErrorBoundary>
       <ErrorBoundary>
         <Hero heroName="Joker"></Hero>
-      </ErrorBoundary>
+      </ErrorBoundary> */}
+
+      <ClickCounter></ClickCounter>
+      <HoverCounter></HoverCounter>
     </div>
   );
 }
