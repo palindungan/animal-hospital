@@ -5,7 +5,6 @@ import Greet from "./components/Greet";
 import Welcome from "./components/Welcome";
 import Hello from "./components/Hello";
 import Message from "./components/Message";
-import Counter from "./components/Counter";
 import FunctionClick from "./components/FunctionClick";
 import ClassClick from "./components/ClassClick";
 import EventBind from "./components/EventBind";
@@ -30,6 +29,10 @@ import Hero from "./components2/Hero";
 import ErrorBoundary from "./components2/ErrorBoundary";
 import ClickCounter from "./components2/ClickCounter";
 import HoverCounter from "./components2/HoverCounter";
+import ClickCounterTwo from "./components2/ClickCounterTwo";
+import HoverCounterTwo from "./components2/HoverCounterTwo";
+import User from "./components2/User";
+import Counter from "./components2/Counter";
 
 function App() {
   return (
@@ -97,8 +100,31 @@ function App() {
         <Hero heroName="Joker"></Hero>
       </ErrorBoundary> */}
 
-      <ClickCounter name="Rizkika"></ClickCounter>
-      <HoverCounter></HoverCounter>
+      {/* <ClickCounter name="Rizkika"></ClickCounter> */}
+      {/* <HoverCounter></HoverCounter> */}
+
+      {/* <Counter
+        render={(count, incrementCount) => (
+          <ClickCounterTwo count={count} incrementCount={incrementCount} />
+        )}
+      />
+      <Counter
+        render={(count, incrementCount) => (
+          <HoverCounterTwo count={count} incrementCount={incrementCount} />
+        )}
+      /> */}
+      <Counter>
+        {(count, incrementCount) => (
+          <ClickCounterTwo count={count} incrementCount={incrementCount} />
+        )}
+      </Counter>
+      <Counter>
+        {(count, incrementCount) => (
+          <HoverCounterTwo count={count} incrementCount={incrementCount} />
+        )}
+      </Counter>
+
+      <User render={(isLoggedIn) => (isLoggedIn ? "Rizkika" : "Guest")}></User>
     </div>
   );
 }
