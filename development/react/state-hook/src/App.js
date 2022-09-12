@@ -15,7 +15,8 @@ function App() {
       {/* <HookCounterTwo /> */}
       {/* <HookCounterThree /> */}
       {/* <HookCounterFour /> */}
-      <ClassCounterOne />
+      {/* <ClassCounterOne /> */}
+
       <HookCounterOne />
     </div>
   );
