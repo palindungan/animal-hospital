@@ -4,6 +4,7 @@ import ClassCounter from "./components/ClassCounter";
 import ClassCounterOne from "./components/ClassCounterOne";
 import ClassMouse from "./components/ClassMouse";
 import ComponentC from "./components/ComponentC";
+import CounterOne from "./components/CounterOne";
 import DataFetching from "./components/DataFetching";
 import HookCounter from "./components/HookCounter";
 import HookCounterFour from "./components/HookCounterFour";
@@ -35,11 +36,13 @@ function App() {
       {/* <IntervalHookCounter /> */}
       {/* <DataFetching /> */}
 
-      <UserContent.Provider value={"Rizkika"}>
+      {/* <UserContent.Provider value={"Rizkika"}>
         <ChannelContext.Provider value={"HEHE"}>
           <ComponentC />
         </ChannelContext.Provider>
-      </UserContent.Provider>
+      </UserContent.Provider> */}
+
+      <CounterOne></CounterOne>
     </div>
   );
 }
