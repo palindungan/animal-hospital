@@ -5,6 +5,7 @@ import ClassCounterOne from "./components/ClassCounterOne";
 import ClassMouse from "./components/ClassMouse";
 import ComponentC from "./components/ComponentC";
 import CounterOne from "./components/CounterOne";
+import CounterThree from "./components/CounterThree";
 import CounterTwo from "./components/CounterTwo";
 import DataFetching from "./components/DataFetching";
 import HookCounter from "./components/HookCounter";
@@ -44,8 +45,8 @@ function App() {
       </UserContent.Provider> */}
 
       {/* <CounterOne></CounterOne> */}
-
-      <CounterTwo></CounterTwo>
+      {/* <CounterTwo></CounterTwo> */}
+      <CounterThree></CounterThree>
     </div>
   );
 }
