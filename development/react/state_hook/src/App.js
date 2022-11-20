@@ -5,6 +5,8 @@ import DataFechingTwo from "./components/DataFechingTwo";
 import ParentComponent from "./components/ParentComponent";
 import Counter from "./components/Counter";
 import FocusInput from "./components/FocusInput";
+import ClassTimer from "./components/ClassTimer";
+import HookTimer from "./components/HookTimer";
 
 function App() {
   return (
@@ -12,7 +14,9 @@ function App() {
       {/* <DataFechingOne /> */}
       {/* <ParentComponent /> */}
       {/* <Counter /> */}
-      <FocusInput />
+      {/* <FocusInput /> */}
+      <ClassTimer />
+      <HookTimer />
     </div>
   );
 }
