@@ -1,17 +1,17 @@
 import logo from "./logo.svg";
 import "./App.css";
-import DataFechingOne from "./components/DataFechingOne";
-import DataFechingTwo from "./components/DataFechingTwo";
-import ParentComponent from "./components/ParentComponent";
-import Counter from "./components/Counter";
-import FocusInput from "./components/FocusInput";
-import ClassTimer from "./components/ClassTimer";
-import HookTimer from "./components/HookTimer";
-import DocTitleOne from "./components/DocTitleOne";
-import DocTitleTwo from "./components/DocTitleTwo";
-import CounterOne from "./components/CounterOne";
-import CounterTwo from "./components/CounterTwo";
-import UserForm from "./components/UserForm";
+import DataFechingOne from "./components_state_hook/DataFechingOne";
+import DataFechingTwo from "./components_state_hook/DataFechingTwo";
+import ParentComponent from "./components_state_hook/ParentComponent";
+import Counter from "./components_state_hook/Counter";
+import FocusInput from "./components_state_hook/FocusInput";
+import ClassTimer from "./components_state_hook/ClassTimer";
+import HookTimer from "./components_state_hook/HookTimer";
+import DocTitleOne from "./components_state_hook/DocTitleOne";
+import DocTitleTwo from "./components_state_hook/DocTitleTwo";
+import CounterOne from "./components_state_hook/CounterOne";
+import CounterTwo from "./components_state_hook/CounterTwo";
+import UserForm from "./components_state_hook/UserForm";
 
 function App() {
   return (
