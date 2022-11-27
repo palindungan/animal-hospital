@@ -6,6 +6,7 @@ import { ArrayUseState } from "./components_react_render/ImmutableState/ArrayUse
 import { Parent } from "./components_react_render/ParentChild/Parent";
 import { GrandParent } from "./components_react_render/Optimization/GrandParent";
 import { ParentTwo } from "./components_react_render/Optimization/ParentTwo";
+import { ParentThree } from "./components_react_render/IncorrectOptimizations/ParentThree";
 
 function App() {
   return (
@@ -16,7 +17,8 @@ function App() {
       {/* <ArrayUseState /> */}
       {/* <Parent /> */}
       {/* <GrandParent /> */}
-      <ParentTwo />
+      {/* <ParentTwo /> */}
+      <ParentThree />
     </div>
   );
 }
