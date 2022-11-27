@@ -7,6 +7,7 @@ import { Parent } from "./components_react_render/ParentChild/Parent";
 import { GrandParent } from "./components_react_render/Optimization/GrandParent";
 import { ParentTwo } from "./components_react_render/Optimization/ParentTwo";
 import { ParentThree } from "./components_react_render/IncorrectOptimizations/ParentThree";
+import { ParentFour } from "./components_react_render/IncorrectOptimizations/ParentFour";
 
 function App() {
   return (
@@ -18,7 +19,8 @@ function App() {
       {/* <Parent /> */}
       {/* <GrandParent /> */}
       {/* <ParentTwo /> */}
-      <ParentThree />
+      {/* <ParentThree /> */}
+      <ParentFour />
     </div>
   );
 }
