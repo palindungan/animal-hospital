@@ -5,6 +5,7 @@ import { ObjectUseState } from "./components_react_render/ImmutableState/ObjectU
 import { ArrayUseState } from "./components_react_render/ImmutableState/ArrayUseState";
 import { Parent } from "./components_react_render/ParentChild/Parent";
 import { GrandParent } from "./components_react_render/Optimization/GrandParent";
+import { ParentTwo } from "./components_react_render/Optimization/ParentTwo";
 
 function App() {
   return (
@@ -14,7 +15,8 @@ function App() {
       {/* <ObjectUseState /> */}
       {/* <ArrayUseState /> */}
       {/* <Parent /> */}
-      <GrandParent />
+      {/* <GrandParent /> */}
+      <ParentTwo />
     </div>
   );
 }
