@@ -9,6 +9,7 @@ import { ParentTwo } from "./components_react_render/Optimization/ParentTwo";
 import { ParentThree } from "./components_react_render/IncorrectOptimizations/ParentThree";
 import { ParentFour } from "./components_react_render/IncorrectOptimizations/ParentFour";
 import { ContextParent } from "./context/ContextParent";
+import { ChildA } from "./context/ContextChildren";
 
 function App() {
   return (
@@ -22,7 +23,9 @@ function App() {
       {/* <ParentTwo /> */}
       {/* <ParentThree /> */}
       {/* <ParentFour /> */}
-      <ContextParent />
+      <ContextParent>
+        <ChildA></ChildA>
+      </ContextParent>
     </div>
   );
 }
