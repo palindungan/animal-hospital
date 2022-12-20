@@ -1,9 +1,11 @@
-import React from 'react'
+type GreetProps = {
+    name:string
+};
 
-export const Greet = () => {
+export const Greet = (props:GreetProps) => {
   return (
     <div>
-        <div>Greet</div>
+        <div>Welcome {props.name} !. you have 10 unread messages </div>
     </div>
   )
 }
