@@ -1,4 +1,6 @@
 import './App.css';
+import { Box } from './components/context/Box';
+import { ThemeContextProvider } from './components/context/ThemeContext';
 import { Counter } from './components/state/Counter';
 import { LoggedIn } from './components/state/LoggedIn';
 import { User } from './components/state/User';
@@ -10,7 +12,11 @@ function App() {
       {/* <LoggedIn></LoggedIn> */}
       {/* <User></User> */}
       {/* <User2></User2> */}
-      <Counter></Counter>
+      {/* <Counter></Counter> */}
+
+      <ThemeContextProvider>
+        <Box />
+      </ThemeContextProvider>
     </div>
   );
 }
