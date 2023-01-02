@@ -1,20 +1,34 @@
 import './App.css';
-import { Private } from './components/auth/Private';
-import { Profile } from './components/auth/Profile';
-import { Counter } from './components/class/Counter';
-import { User } from './components/context/User';
-import { UserContextProvider } from './components/context/UserContext';
+import { List } from './components/generic/List';
 
 function App() {
   return (
     <div className="App">
-      {/* <UserContextProvider>
-        <User></User>
-      </UserContextProvider> */}
-
-      {/* <Counter message='The Count Vale is '></Counter> */}
-
-      <Private isLoggedIn={true} component={Profile}></Private>
+      <List
+        items={["Batman", "Superman", "Wonder Woman"]}
+        onClick={(item) => console.log(item)}
+      />
+      <List
+        items={[1, 2, 3]}
+        onClick={(item) => console.log(item)}
+      />
+      <List
+        items={[
+          {
+            first: "rizkika",
+            last: "zakka",
+          },
+          {
+            first: "22",
+            last: "33",
+          },
+          {
+            first: "44",
+            last: "55",
+          },
+        ]}
+        onClick={(item) => console.log(item)}
+      />
     </div>
   );
 }
